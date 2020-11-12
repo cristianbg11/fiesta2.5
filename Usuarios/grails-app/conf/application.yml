@@ -1,4 +1,7 @@
 ---
+server:
+    port: 8082
+
 grails:
     profile: web
     codegen:
@@ -14,6 +17,8 @@ info:
         version: '@info.app.version@'
         grailsVersion: '@info.app.grailsVersion@'
 spring:
+    application:
+        name: Usuarios
     main:
         banner-mode: "off"
     groovy:
@@ -22,7 +27,7 @@ spring:
 
 # Spring Actuator Endpoints are Disabled by Default
 endpoints:
-    enabled: false
+    enabled: true
     jmx:
         enabled: true
 

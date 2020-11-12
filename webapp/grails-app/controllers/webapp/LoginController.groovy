@@ -1,4 +1,6 @@
 package webapp
+
+import grails.plugins.rest.client.RestBuilder
 import webapp.Usuario
 import grails.validation.ValidationException
 
@@ -11,11 +13,17 @@ class LoginController {
 
     def save(Usuario user) {
             try {
-                //def role = Role.get(params.role.id)
-                println user.password
-                render "kk" + params.password
-
-                //redirect(action: 'index', controller: 'application')
+                def resp = new RestBuilder().post("http://localhost:8082/user/api/login"){
+                    //auth System.getProperty("artifactory.user"), System.getProperty("artifactory.pass")
+                    contentType "application/json"
+                    json {
+                        username = user.username
+                        password = user.password
+                    }
+                    //contentType("application/x-www-form-urlencoded")
+                    //body(form)
+                }
+                render resp.json
 
 
             } catch (ValidationException e) {

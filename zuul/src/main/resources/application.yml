@@ -24,7 +24,7 @@ eureka:
 zuul:
   routes:
     evento: /evento/**
-    user: /user/**
+    Usuarios: /user/**
     notificacion: /notificacion/**
 
 logging:

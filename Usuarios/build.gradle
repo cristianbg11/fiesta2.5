@@ -23,6 +23,15 @@ apply plugin:"org.grails.grails-gsp"
 repositories {
     mavenLocal()
     maven { url "https://repo.grails.org/grails/core" }
+    maven { url "http://dl.bintray.com/puneetbehl/plugins" } // here
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.grails:grails-bom:$grailsVersion"
+        mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Camden.RELEASE'
+    }
+    applyMavenExclusions false
 }
 
 dependencies {
@@ -33,6 +42,8 @@ dependencies {
     compile "org.grails:grails-core"
     compile "org.springframework.boot:spring-boot-starter-actuator"
     compile "org.springframework.boot:spring-boot-starter-tomcat"
+    compile "org.springframework.cloud:spring-cloud-starter-eureka"
+
     compile "org.grails:grails-web-boot"
     compile "org.grails:grails-logging"
     compile "org.grails:grails-plugin-rest"

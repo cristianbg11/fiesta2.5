@@ -1,0 +1,24 @@
+version: '3'
+services:
+
+  eurekaserver:
+    image: eurekaserver
+    build:
+      context: eurekaserver
+      dockerfile: Dockerfile
+    ports:
+      - "8761:8761"
+
+  zuul:
+    image: zuul
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://eurekaserver:8761/eureka/
+    build:
+      context: zuul
+      dockerfile: Dockerfile
+    depends_on:
+     - eurekaserver
+    ports:
+     - "8765:8765"
+    links:
+      - eurekaserver

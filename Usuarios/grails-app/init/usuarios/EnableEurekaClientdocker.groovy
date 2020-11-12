@@ -1,0 +1,5 @@
+package usuarios
+
+@interface EnableEurekaClientdocker {
+
+}
