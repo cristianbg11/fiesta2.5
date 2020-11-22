@@ -8,9 +8,10 @@ class Pedido {
     String estado
     //TO DO
     //static belongsTo = [usuario:User]
-    static hasMany = [asignaciones:Asignacion]
+    long iduser
+    static hasMany = [asignaciones: Asignacion]
     static constraints = {
-        estado inList: ["Pendiente","Finalizado"]
+        estado inList: ["Pendiente", "Finalizado"]
     }
-    
+
 }

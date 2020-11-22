@@ -7,7 +7,8 @@ class Evento {
 
     String nombre
     double costo
-    
+    String imagen
+
     static constraints = {
     }
 }

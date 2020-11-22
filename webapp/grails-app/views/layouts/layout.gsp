@@ -16,6 +16,8 @@
     </title>
 <asset:stylesheet src="mybootstrap.min.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
 
@@ -23,18 +25,32 @@
     <g:layoutHead/>
 </head>
 <body>
-<body>
 <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
     <div class="container"><a class="navbar-brand logo" href="#">Bueno's Service</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse"
              id="navcol-1">
             <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="/">Inicio</a></li>
 
-                <li class="nav-item" role="presentation"><a class="nav-link active" href="/servicios">Services</a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link" href="/servicios/mispedidos">Mis Pedidos</a></li>
-
-
+                <li class="nav-item" role="presentation"><a class="nav-link" href="/evento">Eventos</a></li>
+                <g:if test="${session["infoUsuario"] != null}">
+                    <g:if test="${session["infoUsuario"].rol == "ROLE_ADMIN"}">
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="/usuario">Usuarios</a></li>
+                    </g:if>
+                    <g:if test="${session["infoUsuario"].rol == "ROLE_ADMIN"}">
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="/estadistica">Estadistica</a></li>
+                    </g:if>
+                    <g:elseif test="${session["infoUsuario"].rol == "ROLE_CLIENTE"}">
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="/evento/mispedidos">Mis Pedidos</a></li>
+                    </g:elseif>
+                    <g:else>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="/evento/pedidosempleado">Pedidos</a></li>
+                    </g:else>
+                    <li class="nav-item" role="presentation"><g:link class="nav-link" controller="login" action="logout">Salir</g:link></li>
+                </g:if>
+                <g:else>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/login">Acceder</a></li>
+                </g:else>
             </ul>
         </div>
     </div>
@@ -89,9 +105,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
 <script src="assets/js/script.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.bundle.min.js"></script>
 </body>
 
-</html>
-
-</body>
 </html>

@@ -22,3 +22,17 @@ services:
      - "8765:8765"
     links:
       - eurekaserver
+
+  notificacion:
+    image: notificacion
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://eurekaserver:8761/eureka/
+    build:
+      context: notificaciones_servicio
+      dockerfile: Dockerfile
+    depends_on:
+      - eurekaserver
+    ports:
+      - "4566:4566"
+    links:
+      - eurekaserver

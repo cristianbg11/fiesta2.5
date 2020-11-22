@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="cliente" target="1.8" />
+      <module name="cliente.integrationTest" target="1.8" />
+      <module name="cliente.main" target="1.8" />
+      <module name="cliente.test" target="1.8" />
+      <module name="notificacion" target="1.8" />
+      <module name="notificacion.integrationTest" target="1.8" />
+      <module name="notificacion.main" target="1.8" />
+      <module name="notificacion.test" target="1.8" />
+      <module name="Usuarios" target="1.8" />
+      <module name="Usuarios.integrationTest" target="1.8" />
+      <module name="Usuarios.main" target="1.8" />
+      <module name="Usuarios.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="notificacion" options="-parameters" />
+      <module name="notificaciones_servicio" options="-parameters" />
+    </option>
+  </component>
+</project>

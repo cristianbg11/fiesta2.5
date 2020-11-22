@@ -6,5 +6,4 @@ FROM openjdk:8-jdk-alpine
 EXPOSE 8765
 RUN mkdir -p /app/
 COPY --from=build /home/gradle/src/build/libs/*.jar /app/evento-0.1.jar
-COPY mainDB.mv.db /app/
 ENTRYPOINT ["java", "-jar", "/app/evento-0.1.jar"]

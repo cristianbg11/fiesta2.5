@@ -2,9 +2,7 @@ package evento
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration
-
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient
-import org.springframework.cloud.netflix.hystrix.EnableHystrix
 
 @EnableEurekaClient
 class Application extends GrailsAutoConfiguration {

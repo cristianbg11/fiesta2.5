@@ -1,7 +1,4 @@
 ---
-server:
-  port: 8080
-
 grails:
     profile: web
     codegen:
@@ -10,7 +7,7 @@ grails:
         reactor:
             # Whether to translate GORM events into Reactor events
             # Disabled by default for performance reasons
-            events: false+
+            events: false
 info:
     app:
         name: '@info.app.name@'
@@ -86,16 +83,6 @@ grails:
 endpoints:
     jmx:
         unique-names: true
-
----
-eureka:
-    client:
-        registerWithEureka: true
-        fetchRegistry: true
-        serviceUrl:
-            defaultZone: http://localhost:8761/eureka
-        instance: 
-            hostname: localhost 
 
 ---
 hibernate:

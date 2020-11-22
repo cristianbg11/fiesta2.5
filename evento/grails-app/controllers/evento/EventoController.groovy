@@ -1,5 +1,7 @@
 package evento
 
+import grails.converters.JSON
+
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
@@ -9,9 +11,8 @@ class EventoController {
     static responseFormats = ['json', 'xml']
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-    def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        respond Evento.list(params), model:[eventoCount: Evento.count()]
+    def index() {
+        render Evento.findAll() as JSON
     }
 
     def show(Evento evento) {
@@ -28,13 +29,13 @@ class EventoController {
 
         if (evento.hasErrors()) {
             transactionStatus.setRollbackOnly()
-            respond evento.errors, view:'create'
+            respond evento.errors, view: 'create'
             return
         }
 
-        evento.save flush:true
+        evento.save flush: true
 
-        respond evento, [status: CREATED, view:"show"]
+        respond evento, [status: CREATED, view: "show"]
     }
 
     @Transactional
@@ -47,13 +48,13 @@ class EventoController {
 
         if (evento.hasErrors()) {
             transactionStatus.setRollbackOnly()
-            respond evento.errors, view:'edit'
+            respond evento.errors, view: 'edit'
             return
         }
 
-        evento.save flush:true
+        evento.save flush: true
 
-        respond evento, [status: OK, view:"show"]
+        respond evento, [status: OK, view: "show"]
     }
 
     @Transactional
@@ -65,7 +66,7 @@ class EventoController {
             return
         }
 
-        evento.delete flush:true
+        evento.delete flush: true
 
         render status: NO_CONTENT
     }

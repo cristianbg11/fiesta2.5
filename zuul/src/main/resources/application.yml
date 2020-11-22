@@ -21,11 +21,20 @@ eureka:
     metadataMap:
       instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${random.value}}}
 
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+
 zuul:
   routes:
     evento: /evento/**
     Usuarios: /user/**
     notificacion: /notificacion/**
+    webapp: /webapp/**
 
 logging:
   level:

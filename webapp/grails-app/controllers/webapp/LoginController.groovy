@@ -1,35 +1,78 @@
 package webapp
 
-import grails.plugins.rest.client.RestBuilder
-import webapp.Usuario
-import grails.validation.ValidationException
 
+import grails.plugins.rest.client.RestBuilder
+import grails.validation.ValidationException
+import webapp.InfoUsuario
 
 class LoginController {
-
+    static layout = 'layout'
     def index() { 
 
     }
 
-    def save(Usuario user) {
+    def auth() {
+        String usuario = params.username
+        String clave = params.password
             try {
-                def resp = new RestBuilder().post("http://localhost:8082/user/api/login"){
+                def resp = new RestBuilder().post("http://localhost:9002/api/login"){
                     //auth System.getProperty("artifactory.user"), System.getProperty("artifactory.pass")
                     contentType "application/json"
                     json {
-                        username = user.username
-                        password = user.password
+                        username = usuario
+                        password = clave
                     }
                     //contentType("application/x-www-form-urlencoded")
                     //body(form)
                 }
-                render resp.json
-
+                if(resp.status == 200)
+                {
+                    InfoUsuario infoUsuario = new InfoUsuario();
+                    infoUsuario = resp.json;
+                    session["infoUsuario"] = infoUsuario;
+                    redirect(controller: 'evento', action: 'index');
+                }
+                else
+                {
+                    flash.error = "Usuario y/o contraseña incorrecta";
+                    redirect action: 'index'
+                }
 
             } catch (ValidationException e) {
-                flash.message = "Register Failed"
+                flash.message = "Login Failed"
                 redirect action: "index"
                 return
             }
+    }
+    def registro(){
+
+    }
+    def registrar(){
+        def usuario = params.usuario
+        def nombreU = params.nombre
+        def contrasena = params.contrasena
+        def emailU = params.email
+        def resp = new RestBuilder().post("http://localhost:9002/registrar"){
+            contentType "application/json"
+            json {
+                username = usuario
+                nombre = nombreU
+                password = contrasena
+                email = emailU
+            }
+        }
+        if(resp.status == 200)
+        {
+            redirect action: 'index'
+        }
+        else
+        {
+            flash.error = "Registro fallido";
+            redirect action: 'registrar'
+        }
+    }
+    def logout(){
+        session.invalidate();
+        redirect controller: 'evento', action: 'index'
     }
 }
