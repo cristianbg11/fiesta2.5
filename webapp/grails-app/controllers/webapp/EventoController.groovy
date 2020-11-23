@@ -22,10 +22,11 @@ class EventoController {
     }
     def mispedidos(){
         if(session["infoUsuario"]!=null) {
-            String url = "http://localhost:8765/evento/evento/mispedidos/" + session["infoUsuario"].id
+            String url = "http://localhost:8765/evento/api/evento/mispedidos/" + session["infoUsuario"].id
 
             def resp = new RestBuilder().get(url) {
                 header 'content-type', 'application/json'
+                header 'Authorization', 'Bearer '+session["infoUsuario"].access_token
             }
             def pedidos = resp.json
             def total = pedidos.monto.sum();
@@ -37,11 +38,13 @@ class EventoController {
     def checkout()
     {
         if(session["infoUsuario"]!=null) {
-            String url = "http://localhost:8765/evento/evento/checkout/" + params.id
+            String url = "http://localhost:8765/evento/api/evento/checkout/" + params.id
 
             def resp = new RestBuilder().get(url) {
                 header 'content-type', 'application/json'
+                header 'Authorization', 'Bearer '+session["infoUsuario"].access_token
             }
+            println resp.status
             def evento = resp.json
             [evento: evento]
         }
@@ -51,7 +54,7 @@ class EventoController {
     def payment()
     {
         if(session["infoUsuario"]!=null) {
-            String url = "http://localhost:8765/evento/evento/payment"
+            String url = "http://localhost:8765/evento/api/evento/payment"
             RestBuilder rest = new RestBuilder()
             MultiValueMap<String, String> form = new LinkedMultiValueMap<String, String>()
             form.add("idEvento", params.id)
@@ -59,6 +62,7 @@ class EventoController {
             def resp = rest.post(url) {
                 accept("application/json")
                 contentType("application/x-www-form-urlencoded")
+                header 'Authorization', 'Bearer '+session["infoUsuario"].access_token
                 body(form)
             }
             def pedido = resp.json
@@ -70,7 +74,7 @@ class EventoController {
     }
     def paypal(){
         if(session["infoUsuario"]!=null) {
-            String url = "http://localhost:8765/evento/evento/crearfactura"
+            String url = "http://localhost:8765/evento/api/evento/crearfactura"
             RestBuilder rest = new RestBuilder()
             MultiValueMap<String, String> form = new LinkedMultiValueMap<String, String>()
             form.add("id", params.id)
@@ -79,6 +83,7 @@ class EventoController {
             def resp = rest.post(url) {
                 accept("application/json")
                 contentType("application/x-www-form-urlencoded")
+                header 'Authorization', 'Bearer '+session["infoUsuario"].access_token
                 body(form)
             }
         }
@@ -88,10 +93,11 @@ class EventoController {
     def pedidosempleado(){
 
         if(session["infoUsuario"]!=null) {
-            String url = "http://localhost:8765/evento/evento/pedidosempleado"
+            String url = "http://localhost:8765/evento/api/evento/pedidosempleado"
 
             def resp = new RestBuilder().get(url) {
                 header 'content-type', 'application/json'
+                header 'Authorization', 'Bearer '+session["infoUsuario"].access_token
             }
             def pedidos = resp.json
             [pedidosempleado: pedidos]

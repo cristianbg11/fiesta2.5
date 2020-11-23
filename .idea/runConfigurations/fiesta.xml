@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="fiesta" type="CompoundRunConfigurationType">
+    <toRun name="app" type="docker-deploy" />
+    <toRun name="Grails: usuarios" type="GrailsRunConfigurationType" />
+    <toRun name="Grails: webapp" type="GrailsRunConfigurationType" />
+    <toRun name="Grails: evento" type="GrailsRunConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>

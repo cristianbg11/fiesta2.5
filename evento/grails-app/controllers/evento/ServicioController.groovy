@@ -1,12 +1,14 @@
 package evento
 
 import grails.converters.JSON
+import grails.plugin.springsecurity.annotation.Secured
 import grails.plugins.rest.client.RestBuilder
 import net.sf.jasperreports.engine.*
 import net.sf.jasperreports.engine.export.JRPdfExporter
 import org.apache.commons.io.FileUtils
 import org.springframework.util.LinkedMultiValueMap
 import org.springframework.util.MultiValueMap
+import java.time.LocalDate
 
 class ServicioController {
     static responseFormats = ['json', 'xml']
@@ -17,6 +19,8 @@ class ServicioController {
     def index() {
 
     }
+    //@Secured("ROLE_CLIENTE")
+    @Secured("IS_AUTHENTICATED_ANONYMOUSLY")
     def mispedidos() {
         //List<Pedido> pedidos = Pedido.findAllByUsuario(springSecurityService.currentUser as User)
         //User usuario = springSecurityService.currentUser as User
@@ -26,7 +30,8 @@ class ServicioController {
         List<Pedido> pedidos = Pedido.findAllByIduser(params.id.toLong())
         render pedidos as JSON
     }
-
+    //@Secured("ROLE_CLIENTE")
+    @Secured("IS_AUTHENTICATED_ANONYMOUSLY")
     def payment() {
         def evento = Evento.get(params.idEvento);
         def monto = evento.costo;
@@ -44,14 +49,16 @@ class ServicioController {
         render pedido as JSON
 
     }
-
+    //@Secured("ROLE_CLIENTE")
+    @Secured("IS_AUTHENTICATED_ANONYMOUSLY")
     def checkout() {
         def evento = Evento.get(params.id);
         //def monto=evento.costo;
 
         respond evento
     }
-
+    //@Secured("ROLE_CLIENTE")
+    @Secured("IS_AUTHENTICATED_ANONYMOUSLY")
     def crearfactura() {
         def pedido = Pedido.get(params.id.toLong());
         def cliente = params.nombre
@@ -61,7 +68,7 @@ class ServicioController {
         factura.monto = pedido.evento.costo;
         factura.pedido = pedido;
         factura.estado = 0;
-        pedido.estado = "pagado"
+        pedido.estado = "Pagado"
         factura.save();
         pedido.save();
 
@@ -129,12 +136,14 @@ class ServicioController {
         //reportService.testReport(false, "Boda", "5000", "Cristian")
 
     }
-
+    //@Secured("ROLE_EMPLEADO")
+    @Secured("IS_AUTHENTICATED_ANONYMOUSLY")
     def pedidosempleado (){
         List<Pedido> pedidos = Pedido.findAll()
         render pedidos as JSON
     }
-
+    //@Secured("ROLE_EMPLEADO")
+    @Secured("IS_AUTHENTICATED_ANONYMOUSLY")
     def asignar (){
 
         def pedido = Pedido.get(params.idPedido.toLong())
@@ -156,9 +165,11 @@ class ServicioController {
         List<Pedido> pedidos = Pedido.findAll()
         render pedidos as JSON
     }
-
+    //@Secured("ROLE_ADMIN")
+    @Secured("IS_AUTHENTICATED_ANONYMOUSLY")
     def pedidoshoy(){
-        List<Pedido> pedidoshoy = Pedido.findAllByFecha(new Date())
+        //List<Pedido> pedidoshoy = Pedido.findAllByFechaBetween(LocalDate.toDateTimeAtStartOfDay(), LocalDate.plusDays(1).toDateTimeAtStartOfDay())
+        List<Pedido> pedidoshoy = Pedido.findAll()
         render pedidoshoy as JSON
     }
 }

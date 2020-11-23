@@ -15,7 +15,7 @@ class LoginController {
         String usuario = params.username
         String clave = params.password
             try {
-                def resp = new RestBuilder().post("http://localhost:9002/api/login"){
+                def resp = new RestBuilder().post("http://localhost:8765/usuarios/api/login"){
                     //auth System.getProperty("artifactory.user"), System.getProperty("artifactory.pass")
                     contentType "application/json"
                     json {

@@ -23,379 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c754ba71-e1c6-4768-a967-2e7e1aaab143" name="Default Changelist" comment="cambios finales">
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/Clientes/Cristian/1/Boda.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/Clientes/Cristian/1/Pre-Boda.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/Clientes/Cristian/2/Pre-Boda.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/Clientes/Cristian/2/Video Evento.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/Clientes/Cristian/3/Cumpleanos.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/Clientes/Cristian/4/Pre-Boda.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/Clientes/Cristian/8/Boda.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/Clientes/cristian/1/Pre-Boda.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/grails-app/controllers/evento/AsignacionController.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/grails-app/controllers/evento/FacturaController.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/grails-app/controllers/evento/PedidoController.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/grails-app/controllers/evento/ServicioController.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/grails-app/services/evento/ReportService.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/src/main/resources/Invoice.jrxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/src/main/resources/invoice_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/src/main/webapp/reports/Invoice.jasper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/src/main/webapp/reports/Invoice.jrxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/src/main/webapp/reports/as_sala_mu_alai_kum.jasper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/src/main/webapp/reports/as_sala_mu_alai_kum.jrxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/src/main/webapp/reports/image/invoice_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/src/main/webapp/reports/invoice_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/webapp/reports/Invoice.jrxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/webapp/reports/image/invoice_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evento/webapp/reports/invoice_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificaciones_servicio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificaciones_servicio/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificaciones_servicio/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificaciones_servicio/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificaciones_servicio/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificaciones_servicio/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificaciones_servicio/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificaciones_servicio/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificaciones_servicio/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificaciones_servicio/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificaciones_servicio/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificaciones_servicio/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificaciones_servicio/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificaciones_servicio/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notificaciones_servicio/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/Clientes/cris/1/1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/conf/application.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/conf/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/conf/logback.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/conf/spring/resources.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/controllers/com/usuarios/UserController.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/controllers/usuarios/ApplicationController.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/controllers/usuarios/UrlMappings.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/domain/com/usuarios/Role.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/domain/com/usuarios/UserRole.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_cs.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_da.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_de.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_es.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_fr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_it.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_nb.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_nl.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_pl.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_pt_BR.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_pt_PT.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_ru.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_sk.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_sv.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_th.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/i18n/messages_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/init/usuarios/Application.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/init/usuarios/BootStrap.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/views/application/index.gson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/views/error.gson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/views/errors/_errors.gson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/views/notFound.gson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-app/views/object/_object.gson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grails-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grailsw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/grailsw.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/src/main/groovy/com/usuarios/CustomAppRestAuthTokenJsonRenderer.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/src/main/groovy/com/usuarios/UserPasswordEncoderListener.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/src/main/webapp/reports/Invoice.jasper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/src/main/webapp/reports/Invoice.jrxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/src/main/webapp/reports/as_sala_mu_alai_kum.jasper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/src/main/webapp/reports/as_sala_mu_alai_kum.jrxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/src/main/webapp/reports/invoice_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/mybootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/styles.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/grails-app/controllers/webapp/EstadisticaController.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/grails-app/controllers/webapp/EventoController.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/grails-app/controllers/webapp/UsuarioController.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/grails-app/views/evento/index.gsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/grails-app/views/evento/pedidosempleado.gsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/grails-app/views/login/registro.gsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/grails-app/views/usuario/editar.gsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/grails-app/views/usuario/index.gsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/src/main/groovy/InfoUsuario.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/src/main/webapp/reports/Invoice.jrxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/src/main/webapp/reports/invoice_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/src/test/groovy/webapp/UsuarioControllerSpec.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/test.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/advancedgrails.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/apple-touch-icon-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/documentation.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/grails-cupsonly-logo-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/grails.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/skin/database_add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/skin/database_delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/skin/database_edit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/skin/database_save.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/skin/database_table.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/skin/exclamation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/skin/house.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/skin/information.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/skin/shadow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/skin/sorted_asc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/skin/sorted_desc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/slack.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/images/spinner.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/javascripts/application.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/javascripts/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/javascripts/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/javascripts/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/javascripts/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/javascripts/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/javascripts/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/javascripts/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/javascripts/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/javascripts/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/javascripts/jquery-3.3.1.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/javascripts/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/stylesheets/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/stylesheets/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/stylesheets/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/stylesheets/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/stylesheets/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/stylesheets/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/stylesheets/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/stylesheets/errors.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/stylesheets/grails.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/stylesheets/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/assets/stylesheets/mobile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/conf/application.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/conf/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/conf/logback.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/conf/spring/resources.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/controllers/com/Usuarios/BookController.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/controllers/usuarios/UrlMappings.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/domain/com/Usuarios/Book.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/domain/com/Usuarios/Role.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/domain/com/Usuarios/User.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/domain/com/Usuarios/UserRole.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_cs.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_da.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_de.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_es.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_fr.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_it.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_ja.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_nb.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_nl.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_pl.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_pt_BR.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_pt_PT.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_ru.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_sk.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_sv.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_th.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/i18n/messages_zh_CN.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/init/usuarios/Application.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/init/usuarios/BootStrap.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/init/usuarios/EnableEurekaClientdocker.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/views/error.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/views/index.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/views/layouts/main.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-app/views/notFound.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grails-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grailsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/grailsw.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/src/integration-test/groovy/com/Usuarios/BookServiceSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/src/integration-test/resources/GebConfig.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/src/main/groovy/com/Usuarios/UserPasswordEncoderListener.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/src/test/groovy/com/Usuarios/BookControllerSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuarios/src/test/groovy/com/Usuarios/BookSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/src/main/java/com/pucmm/eurekaserver/EurekaserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/src/main/java/com/pucmm/eurekaserver/EurekaserverApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/src/test/java/com/pucmm/eurekaserver/EurekaserverApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/src/test/java/com/pucmm/eurekaserver/EurekaserverApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/fiesta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evento/Clientes/Cristian/1/Video Evento.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evento/Clientes/Cristian/4/Cumpleanos.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evento/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/evento/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evento/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/evento/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/evento/gradlew" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evento/grails-app/conf/application.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/conf/application.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/conf/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/conf/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/conf/logback.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/conf/logback.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evento/grails-app/controllers/evento/EventoController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/controllers/evento/EventoController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evento/grails-app/controllers/evento/ServicioController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/controllers/evento/ServicioController.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evento/grails-app/controllers/evento/UrlMappings.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/controllers/evento/UrlMappings.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/domain/evento/Asignacion.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/domain/evento/Asignacion.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/domain/evento/Evento.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/domain/evento/Evento.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/domain/evento/Factura.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/domain/evento/Factura.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/domain/evento/Pedido.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/domain/evento/Pedido.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages_cs_CZ.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages_cs_CZ.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages_da.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages_da.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages_de.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages_de.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages_es.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages_fr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages_fr.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages_it.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages_it.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages_ja.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages_ja.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages_nb.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages_nb.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages_nl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages_nl.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages_pl.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages_pt_BR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages_pt_BR.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages_pt_PT.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages_pt_PT.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages_sv.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages_sv.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/i18n/messages_th.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/i18n/messages_th.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/init/evento/Application.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/init/evento/Application.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/init/evento/BootStrap.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/init/evento/BootStrap.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/views/application/index.gson" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/views/application/index.gson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/views/error.gson" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/views/error.gson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/views/errors/_errors.gson" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/views/errors/_errors.gson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grails-app/views/notFound.gson" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grails-app/views/notFound.gson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento/grailsw" beforeDir="false" afterPath="$PROJECT_DIR$/evento/grailsw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notificaciones_servicio/notificaciones_servicio.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notificaciones_servicio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notificaciones_servicio/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notificaciones_servicio/src/main/java/com/mycompany/notificaciones_servicio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/notificaciones_servicio/src/main/java/com/mycompany/notificaciones_servicio/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notificaciones_servicio/src/main/java/com/mycompany/notificaciones_servicio/SendMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/notificaciones_servicio/src/main/java/com/mycompany/notificaciones_servicio/SendMail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/images/advancedgrails.svg" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/images/advancedgrails.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/images/documentation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/images/documentation.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/images/grails-cupsonly-logo-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/images/grails-cupsonly-logo-white.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/images/grails.svg" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/images/grails.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/images/slack.svg" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/images/slack.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/javascripts/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/javascripts/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/javascripts/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/javascripts/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/javascripts/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/javascripts/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/javascripts/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/javascripts/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/javascripts/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/javascripts/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/javascripts/jquery-3.3.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/javascripts/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/javascripts/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/errors.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/errors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/grails.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/grails.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/assets/stylesheets/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/conf/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/conf/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/conf/logback.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/conf/logback.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/conf/spring/resources.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/conf/spring/resources.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/controllers/webapp/ApplicationController.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evento/src/main/webapp/reports/as_sala_mu_alai_kum.jasper" beforeDir="false" afterPath="$PROJECT_DIR$/evento/src/main/webapp/reports/as_sala_mu_alai_kum.jasper" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/grails-app/controllers/webapp/EstadisticaController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/controllers/webapp/EstadisticaController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/grails-app/controllers/webapp/EventoController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/controllers/webapp/EventoController.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/grails-app/controllers/webapp/LoginController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/controllers/webapp/LoginController.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/controllers/webapp/UrlMappings.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/controllers/webapp/UrlMappings.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/controllers/webapp/UserController.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_cs.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_cs.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_da.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_da.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_de.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_de.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_es.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_fr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_fr.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_it.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_it.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_ja.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_ja.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_nb.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_nb.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_nl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_nl.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_pl.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_pt_BR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_pt_BR.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_pt_PT.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_pt_PT.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_sk.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_sk.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_sv.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_sv.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_th.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_th.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/i18n/messages_zh_CN.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/init/webapp/Application.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/init/webapp/Application.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/init/webapp/BootStrap.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/init/webapp/BootStrap.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/services/webapp/UserService.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/application/assets/img/scenery/image5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/application/checkout.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/application/generar_pedido.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/application/index.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/views/estadistica/index.gsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/application/mispedidos.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/application/payment.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/views/evento/payment.gsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/application/verfactura.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/asignacion/create.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/asignacion/edit.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/asignacion/index.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/asignacion/show.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/error.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/views/error.gsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/index.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/views/index.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/grails-app/controllers/webapp/UsuarioController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/controllers/webapp/UsuarioController.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/layouts/layout.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/views/layouts/layout.gsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/layouts/main.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/views/layouts/main.gsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/login/index.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/views/login/index.gsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/notFound.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/views/notFound.gsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/pedido/create.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/pedido/edit.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/pedido/index.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/pedido/show.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/register/index.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/servicios/assets/img/scenery/image5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/views/evento/assets/img/scenery/image5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/servicios/checkout.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/views/evento/checkout.gsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/servicios/generar_pedido.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/views/evento/generar_pedido.gsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/servicios/index.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/servicios/mispedidos.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/views/evento/mispedidos.gsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/servicios/payment.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/servicios/verfactura.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grails-app/views/evento/verfactura.gsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/user/create.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/user/edit.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/user/index.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/user/show.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/user1/create.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/user1/edit.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/user1/index.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grails-app/views/user1/show.gsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grailsw" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grailsw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/grailsw.bat" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/grailsw.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/integration-test/groovy/webapp/User1ServiceSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/integration-test/groovy/webapp/UserServiceSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/integration-test/resources/GebConfig.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/integration-test/resources/GebConfig.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/main/groovy/webapp/Asignacion.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/main/groovy/webapp/Evento.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/main/groovy/webapp/Factura.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/main/groovy/webapp/Pedido.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/main/groovy/webapp/User.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/main/groovy/webapp/User1.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/grails-app/domain/com/usuarios/User.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/main/groovy/webapp/Usuario.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/test/groovy/webapp/ApplicationControllerSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/test/groovy/webapp/EstadisticaControllerSpec.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/test/groovy/webapp/LoginControllerSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/test/groovy/webapp/EventoControllerSpec.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/test/groovy/webapp/User1ControllerSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/test/groovy/webapp/UserControllerSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/com/pucmm/zuul/ZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/java/com/pucmm/zuul/ZuulApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/test/java/com/pucmm/zuul/ZuulApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/test/java/com/pucmm/zuul/ZuulApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -518,7 +161,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Grails.Grails: webapp">
+  <component name="RunManager" selected="Docker.app">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.notificaciones_servicio.Main" />
       <module name="notificaciones_servicio" />
@@ -532,16 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="app" type="docker-deploy" />
+      <toRun name="Grails: usuarios" type="GrailsRunConfigurationType" />
+      <toRun name="Grails: webapp" type="GrailsRunConfigurationType" />
+      <toRun name="Grails: evento" type="GrailsRunConfigurationType" />
+      <method v="2" />
     </configuration>
     <configuration name="Grails: evento" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
@@ -572,53 +211,6 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="eurekaserver" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="eurekaserver" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="EurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eurekaserver.main" />
@@ -656,23 +248,10 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose.yml.evento: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="evento" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Compound.fiesta" />
       <item itemvalue="Docker.app" />
-      <item itemvalue="Docker.docker-compose.yml.evento: Compose Deployment" />
       <item itemvalue="Grails.Grails: evento" />
       <item itemvalue="Grails.Grails: webapp" />
       <item itemvalue="Grails.Grails: usuarios" />
@@ -682,7 +261,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml.evento: Compose Deployment" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -711,7 +289,10 @@
       <workItem from="1605988455750" duration="1616000" />
       <workItem from="1605996739200" duration="878000" />
       <workItem from="1606051487267" duration="1739000" />
-      <workItem from="1606053358667" duration="287000" />
+      <workItem from="1606053358667" duration="1355000" />
+      <workItem from="1606056972178" duration="1856000" />
+      <workItem from="1606107042631" duration="1725000" />
+      <workItem from="1606115216277" duration="2742000" />
     </task>
     <task id="LOCAL-00001" summary="avances con docker y base de datos">
       <created>1605213604960</created>
@@ -720,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605213604961</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cambios finales">
+      <created>1606054023929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606054023929</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TraitInjectorService">
@@ -749,6 +337,7 @@
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.4/3a21d1db4c9c10b2f9096fd0ad08e0ea2c9aa9e6/hibernate5-6.0.4.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.3/398885ee10b088ee8aadeebf511b79ae0a5814c1/grails-web-common-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/3.2.3/bfacffb96777df3e5ad86a96b0aa682d2df2e384/grails-plugin-interceptors-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/spring-security-core/3.1.2/ca54acbad681d79bd545373db6dac234a637009f/spring-security-core-3.1.2.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/3.2.3/9f323869b9c6bae279adb5c510a7f30c9c563b3f/grails-plugin-domain-class-3.2.3.jar!/META-INF/grails.factories" />
                 </list>
               </option>
@@ -760,6 +349,7 @@
                         <option value="grails.artefact.Controller" />
                         <option value="grails.artefact.AsyncController" />
                         <option value="grails.artefact.controller.RestResponder" />
+                        <option value="grails.plugin.springsecurity.ControllerMixin" />
                         <option value="grails.plugins.mail.SendMail" />
                       </list>
                     </value>
@@ -831,6 +421,7 @@
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.4/3a21d1db4c9c10b2f9096fd0ad08e0ea2c9aa9e6/hibernate5-6.0.4.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.3/398885ee10b088ee8aadeebf511b79ae0a5814c1/grails-web-common-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/3.2.3/bfacffb96777df3e5ad86a96b0aa682d2df2e384/grails-plugin-interceptors-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/spring-security-core/3.1.2/ca54acbad681d79bd545373db6dac234a637009f/spring-security-core-3.1.2.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/3.2.3/9f323869b9c6bae279adb5c510a7f30c9c563b3f/grails-plugin-domain-class-3.2.3.jar!/META-INF/grails.factories" />
                 </list>
               </option>
@@ -842,6 +433,7 @@
                         <option value="grails.artefact.Controller" />
                         <option value="grails.artefact.AsyncController" />
                         <option value="grails.artefact.controller.RestResponder" />
+                        <option value="grails.plugin.springsecurity.ControllerMixin" />
                         <option value="grails.plugins.mail.SendMail" />
                       </list>
                     </value>
@@ -1382,10 +974,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="507" y="294" width="408" height="204" key="#Push_Image/67.27.1299.741@67.27.1299.741" timestamp="1605126023696" />
-    <state x="174" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606053487933">
+    <state x="174" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606117942564">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="174" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1606053487933" />
+    <state x="174" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1606117942564" />
     <state x="385" y="198" width="722" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605933254514">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -1430,22 +1022,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="362" y="83" width="699" height="626" key="Github.UntrackedFilesDialog/67.27.1299.741@67.27.1299.741" timestamp="1605107070370" />
-    <state width="1253" height="174" key="GridCell.Tab.0.bottom" timestamp="1605997278112">
+    <state width="1253" height="184" key="GridCell.Tab.0.bottom" timestamp="1606108789111">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="174" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1605997278112" />
-    <state width="1253" height="174" key="GridCell.Tab.0.center" timestamp="1605997278112">
+    <state width="1253" height="184" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1606108789111" />
+    <state width="1253" height="184" key="GridCell.Tab.0.center" timestamp="1606108789110">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="174" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1605997278112" />
-    <state width="1253" height="174" key="GridCell.Tab.0.left" timestamp="1605997278111">
+    <state width="1253" height="184" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1606108789110" />
+    <state width="1253" height="184" key="GridCell.Tab.0.left" timestamp="1606108789109">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="174" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1605997278111" />
-    <state width="1253" height="174" key="GridCell.Tab.0.right" timestamp="1605997278112">
+    <state width="1253" height="184" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1606108789109" />
+    <state width="1253" height="184" key="GridCell.Tab.0.right" timestamp="1606108789110">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="174" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1605997278112" />
+    <state width="1253" height="184" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1606108789110" />
     <state width="943" height="269" key="GridCell.Tab.1.bottom" timestamp="1605986347871">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -1486,10 +1078,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="205" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1605288989296" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1605213706394">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1606054078799">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1605213706394" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1606054078799" />
     <state x="242" y="115" width="939" height="647" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605502914278">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
